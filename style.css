@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@0;1&display=swap');
+body{
+    background-image: url(2.jfif);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Kanit', sans-serif;
+}
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        height: 65px;
+        background-color: black;
+        align-items: center;
+        color: white;
+    }
+    nav ul li{
+        padding: 0 15px;
+    }
+    nav ul li a{
+        display: flex;
+        list-style-type: none;
+        height: 65px;
+        background-color: black;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+    }
+.brand img{
+    width: 75px;
+    padding: 0 10px;
+}
+.brand{
+
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container{
+    min-height: 70vh;
+    border: tomato;
+    background-color: rgba(0, 0, 0, 0.63);
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    width: 65%;
+    margin: 25px auto;
+    border-radius: 14px;
+    padding: 25px;
+    background-image: url(3.jfif);
+}
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: rgb(15, 13, 13);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+margin: 10px ;
+}
+.icons i{
+font-size: 30px;
+margin-left: 15px;
+cursor: pointer;
+color: white;
+}
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+    /* color: rgb(75, 216, 86); */
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(15, 14, 12);
+    margin: 12px 5px;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(75, 216, 86);
+    border-radius: 34px;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 20px;
+}
+.songinfo{
+    color: rgb(75, 216, 86);
+    position: absolute;
+    left: 10vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
